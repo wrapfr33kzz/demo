@@ -5,14 +5,14 @@
 }
 body{
     width: 100%;
+    margin: 0;
     background-color: red;
+   
 }
 
 .wrapf{
     background-color: aqua;
-    position: relative;
-    top: 70px;
-    width: 100vw;
+    width: 100%;
     height: 700px;
    
 
