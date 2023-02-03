@@ -281,3 +281,14 @@ ion-icon {
     opacity: 0.88;
     font-weight: 700;
  }
+.logo{
+    color: #030202;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo span{
+    color: yellowgreen;
+    text-shadow: 11px black;
+}
