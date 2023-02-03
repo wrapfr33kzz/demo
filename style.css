@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.wrapf{
+    background-color: aqua;
+    position: relative;
+    top: 70px;
+    width: auto;
+    height: 700px;
+    padding-left:50px;
+    padding-right:50px;
+
+   
+
+}
+
+.cards{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+
+
+/* card starting */
+
+.card{
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 150px;
+width: 150px;
+margin: 15px;
+}
+.card p{
+    text-align: center;
+    color: white;
+
+}
+.card ion-icon {
+    padding: 15px;
+    position: relative;
+    left: 30px;
+}
+
+
+/* card place// */
+ion-icon {
+    font-size: 45px;
+  }
+  ion-icon {
+    color: yellow;
+  }
+  ion-icon {
+    --ionicon-stroke-width: 26px;
+  }
+
+  /* card finished/ */
