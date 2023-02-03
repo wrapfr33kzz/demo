@@ -1,0 +1,18 @@
+.name1{
+    position: relative;
+ top: 50px;
+ left: 60px;
+ padding: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-transform: uppercase;
+ z-index: 1;
+ 
+ padding: 10px;   
+    color: #fff;
+}
+.name1 span{
+    color: yellow;
+}
+.name .para{
+    font-size: 5px;
+}
