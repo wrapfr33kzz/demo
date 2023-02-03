@@ -1,15 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+   
 }
-
-
+body{
+    width: 100%;
+    background-color: red;
+}
 
 .wrapf{
     background-color: aqua;
     position: relative;
     top: 70px;
-    width: auto;
+    width: 100vw;
     height: 700px;
    
 
