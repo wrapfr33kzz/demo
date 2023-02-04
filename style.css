@@ -282,13 +282,67 @@ ion-icon {
     font-weight: 700;
  }
 .logo{
-    color: #030202;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 50px;
+   width: 50px;
+   /* background-color: red; */
+   background-image: url('assets/111346-telegram.gif');
+    background-position: center;
+    background-size: cover;
+
+   border-radius: 50%;
+
 
 }
 
 .logo span{
     color: yellowgreen;
     text-shadow: 11px black;
+}
+
+.section-2{
+    /* height: 300px; */
+    width: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.img-sec2{
+
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url('assets/39701-robot-bot-3d.gif');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 3px;
+    
+
+}
+.sec-2-details{
+    
+    max-height: 400px;
+    min-width: 300px;
+    background-color: rgb(255, 237, 237);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+
+}
+.sec-2-details h2{
+    padding: 5px;
+    
+
+}
+.sec-2-details p{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    word-spacing: 8px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
