@@ -449,3 +449,51 @@ ion-icon {
     background-color: rgb(255, 255, 255);
     z-index: 2;
 }
+
+
+
+
+/* .sec4-details */
+
+
+
+
+#preloader{
+    background: #000 url('https://assets.objkt.media/file/assets-003/QmUTEPWaVjVBHwopPYwuCwkc2dTdL7anXNghjjoT9ZYmmr/artifact')no-repeat center center;
+    background-size: 18%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:blueviolet;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #myBtn ion-icon {
+    size: 4px;
+
+  }
+
+
+  html{
+    scroll-behavior: smooth;
+  }
